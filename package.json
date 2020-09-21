@@ -1,0 +1,28 @@
+{
+  "name": "h2c-bot",
+  "version": "1.0.0",
+  "description": "discord bot for the how to computer discord server",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup --config",
+    "start": "node -r dotenv/config build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "bufferutil": "^4.0.1",
+    "dayjs": "^1.8.35",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "erlpack": "github:discord/erlpack",
+    "rollup": "^2.27.0",
+    "sequelize": "^6.3.5",
+    "utf-8-validate": "^5.0.2",
+    "zlib-sync": "^0.1.7",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}
